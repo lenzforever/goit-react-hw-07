@@ -1,0 +1,48 @@
+.contactContainer {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 0.8em;
+   background-color: #333;
+   border-radius: 8px;
+   margin-bottom: 0.5em;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.profile {
+   display: flex;
+   flex-direction: column;
+   gap: 0.5em;
+}
+
+.name,
+.phone {
+   display: flex;
+   align-items: center;
+   gap: 0.5em;
+   color: #e0e0e0;
+}
+
+.icon {
+   color: #94d0d8;
+}
+
+.phone {
+   text-decoration: none;
+   color: #94d0d8;
+}
+
+.button {
+   padding: 0.5em 1em;
+   font-size: 0.9em;
+   color: #fff;
+   background-color: #d9534f;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 250ms ease-in-out;
+}
+
+.button:hover {
+   background-color: #c9302c;
+}

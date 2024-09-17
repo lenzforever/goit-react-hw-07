@@ -1,0 +1,104 @@
+:root {
+  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #2e2e2e;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*:focus {
+  outline: none;
+}
+
+a {
+  font-weight: 600;
+  color: #b0b0b0;
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: #2e332e;
+  transition: color 250ms ease-in-out;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(to right, #2e2e2e, #1c1c1c);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.2;
+  color: #e0e0e0;
+}
+
+button {
+  border-radius: 8px;
+  padding: 0.6em 1.4em;
+  font-size: 1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #333;
+  color: #f0f0f0;
+  border: none;
+  cursor: pointer;
+  transition: background-color 250ms ease-in-out, transform 150ms ease-in-out;
+}
+
+button:hover,
+button:focus {
+  background-color: #444;
+  transform: scale(1.05);
+}
+
+input {
+  height: 2.4em;
+  padding: 0.5em 0.8em;
+  border: 1px solid #555;
+  border-radius: 4px;
+  background-color: #333;
+  color: #ddd;
+  transition: box-shadow 300ms linear, border-color 250ms ease-in-out;
+}
+
+input:focus {
+  border-color: #666;
+  box-shadow: 0 0 0 3px rgba(150, 150, 150, 0.5);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #333;
+    background-color: #f5f5f5;
+  }
+
+  a {
+    color: #007bff;
+  }
+
+  a:hover {
+    color: #0056b3;
+  }
+
+  button {
+    background-color: #e0e0e0;
+    color: #333;
+  }
+}

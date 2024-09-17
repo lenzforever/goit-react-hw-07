@@ -1,0 +1,21 @@
+.errorContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Чтобы располагать сообщение по центру экрана */
+    background-color: #1c1c1c;
+    /* Темный фон для контекста сообщения */
+}
+
+.errorMessage {
+    color: #ff4d4d;
+    /* Красный цвет для текста ошибки */
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+    border: 1px solid #ff4d4d;
+    border-radius: 8px;
+    background-color: #2c2c2c;
+    /* Фон для сообщения ошибки */
+}

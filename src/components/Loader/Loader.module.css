@@ -1,0 +1,9 @@
+.loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* чтобы позиционировать загрузчик по центру экрана */
+    background-color: #1c1c1c;
+    /* темный фон для контекста загрузчика */
+}

@@ -1,0 +1,42 @@
+.filterField {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background-color: #333;
+   /* темный фон для поля поиска */
+   padding: 1em;
+   border-radius: 8px;
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+   /* легкая тень для поля */
+}
+
+.filterFieldTitle {
+   font-size: 1.5em;
+   color: #e0e0e0;
+   /* светлый цвет текста заголовка */
+   margin-bottom: 0.5em;
+}
+
+.filterFieldInput {
+   width: 100%;
+   padding: 0.8em;
+   border: 1px solid #555;
+   border-radius: 4px;
+   background-color: #222;
+   /* темный фон для ввода */
+   color: #ddd;
+   /* светлый цвет текста ввода */
+   transition: border-color 250ms ease-in-out, box-shadow 250ms ease-in-out;
+}
+
+.filterFieldInput::placeholder {
+   color: #888;
+   /* светло-серый цвет для плейсхолдера */
+}
+
+.filterFieldInput:focus {
+   border-color: #666;
+   /* цвет границы при фокусе */
+   box-shadow: 0 0 0 3px rgba(150, 150, 150, 0.5);
+   /* тень при фокусе */
+}
